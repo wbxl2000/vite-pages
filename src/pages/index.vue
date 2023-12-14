@@ -1,1 +1,3 @@
-<template>123</template>
+<template>
+    <img src="/images/mg_1858.jpeg" alt="">
+</template>

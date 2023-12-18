@@ -1,4 +1,14 @@
 <script setup>
+import { useRoute, useRouter } from 'vue-router'
+
+const router = useRouter()
+const route = useRoute()
+
+console.warn(router.getRoutes());
+router.getRoutes().forEach((item) => {
+  console.log(item.meta)
+})
+
 </script>
 
 <template>

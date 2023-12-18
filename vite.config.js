@@ -12,6 +12,8 @@ export default defineConfig({
     vue({
       include: [/\.vue$/, /\.md$/], // <-- allows Vue to compile Markdown files
     }),
-    Markdown({ /* options */ }),
+    Markdown({
+      headEnabled: true // <--
+    }),
   ],
 })
